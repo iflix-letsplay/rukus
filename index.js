@@ -90,7 +90,6 @@ function CLI() {
             break;
         default:
             console.log('usage: rukus <command> (newproject, newcomponent)');
-            console.log(process.cwd(), __dirname);
     }
 }
 
