@@ -1,0 +1,13 @@
+{
+  "name": "{{name}}",
+  "version": "1.0.0",
+  "description": "{{name}}: A rukus/riot web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+  }
+}

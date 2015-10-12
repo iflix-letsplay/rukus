@@ -1,0 +1,31 @@
+{
+  "name": "rukus",
+  "version": "1.0.0",
+  "description": "rukus is some helpers and patterns for using riot.js",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iflix-letsplay/rukus.git"
+  },
+  "keywords": [
+    "riot",
+    "webpack",
+    "web"
+  ],
+  "author": "iflix team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iflix-letsplay/rukus/issues"
+  },
+  "homepage": "https://github.com/iflix-letsplay/rukus#readme",
+  "dependencies": {
+    "init-package-json": "^1.9.1",
+    "npm-install-package": "^1.0.2",
+    "skeletron": "0.0.2",
+    "yargs": "^3.27.0"
+  }
+}
