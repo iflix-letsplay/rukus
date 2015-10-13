@@ -2,8 +2,8 @@
   "name": "rukus",
   "version": "1.0.0",
   "description": "rukus is some helpers and patterns for using riot.js",
-  "main": "index.js",
-  "bin": "./index.js",
+  "main": "./lib/index.js",
+  "bin": "./bin/rukus.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/iflix-letsplay/rukus#readme",
   "dependencies": {
-    "init-package-json": "^1.9.1",
     "npm-install-package": "^1.0.2",
     "skeletron": "0.0.2",
     "yargs": "^3.27.0"
