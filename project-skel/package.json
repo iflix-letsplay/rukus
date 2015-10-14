@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "start" : "./node_modules/.bin/webpack-dev-server --inline —hot"
+    "start" : "./node_modules/.bin/webpack-dev-server --inline"
   },
   "author": "",
   "license": "",

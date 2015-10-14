@@ -76,7 +76,7 @@ function newproject() {
         finder.on('end', function () {
             process.chdir(base);
             console.log('installing deps..');
-            var deps = ['webpack', 'riot', 'babel-loader'];//, 'rukus-loader'];
+            var deps = ['webpack', 'riot', 'babel-loader', 'file-loader'];//, 'rukus-loader'];
             var devDeps = ['webpack-dev-server', 'mocha'];
             npmInstallPackage(deps, {save:true}, function(err) {
                 if (err) {
