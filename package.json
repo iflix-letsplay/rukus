@@ -1,7 +1,7 @@
 {
   "name": "rukus",
   "version": "1.0.0",
-  "description": "rukus is some helpers and patterns for using riot.js",
+  "description": "rukus provides some helpers and patterns for using riot.js",
   "main": "./lib/index.js",
   "bin": "./bin/rukus.js",
   "scripts": {
@@ -12,6 +12,7 @@
     "url": "git+https://github.com/iflix-letsplay/rukus.git"
   },
   "keywords": [
+    "rukus",
     "riot",
     "webpack",
     "web"
