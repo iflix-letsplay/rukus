@@ -32,3 +32,19 @@ $ npm start
 And point your browser to [http://localhost:8080](http://localhost:8080)
 
 
+## Components
+
+The rukus webpack loader searches directories (./components by default) for 
+rukus components and manually registers them as [riot tags](http://riotjs.com/api/#manual-construction). 
+A rukus component is a directory with am index.html, index.js and test.js file:
+
+```
+yourcomponent/
+    index.html
+    index.js
+    test.js
+```
+
+To create a new component, cd into the components directory and run:
+
+```$ rukus newcomponent yourcomponent```
