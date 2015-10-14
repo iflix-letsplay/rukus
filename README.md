@@ -9,13 +9,13 @@
 ```
    
 
-Rukus is a project skeleton, webpack loader and helpers for building [roit.js](http://roitjs.com)
+Rukus is a project skeleton, webpack loader and helpers for building [riot.js](http://roitjs.com)
 web applications in the iflix style. 
 
 Riot Tag files are replaced with components defined in directories with an index.html template, an index.js (which exports a component 
 handler), and a test.js file which validates the component.  
 
-Rukus is an opponionated pattern for building apps with riot.js
+Rukus is an opinionated pattern for building apps with riot.js
 
 
 
@@ -24,8 +24,8 @@ Rukus is an opponionated pattern for building apps with riot.js
 
 ```
 $ npm install -g rukus
-$ rukus newproject yourproject
-$ cd yourproject
+$ rukus newproject <yourproject>
+$ cd <yourproject>
 $ npm start
 ```
 
@@ -36,7 +36,7 @@ And point your browser to [http://localhost:8080](http://localhost:8080)
 
 The rukus webpack loader searches directories (./components by default) for 
 rukus components and manually registers them as [riot tags](http://riotjs.com/api/#manual-construction). 
-A rukus component is a directory with am index.html, index.js and test.js file:
+A rukus component is a directory with an index.html, index.js and test.js file:
 
 ```
 yourcomponent/
@@ -47,4 +47,4 @@ yourcomponent/
 
 To create a new component, cd into the components directory and run:
 
-```$ rukus newcomponent yourcomponent```
+```$ rukus newcomponent <yourcomponent>```
