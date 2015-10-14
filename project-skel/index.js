@@ -15,7 +15,7 @@ var RukusApp = {
 
 };
 
-riot.observable(RukusApp); 
+riot.observable(RukusApp);
 
 /* <(=^ ◡ ^=)> .o ( Hey look! )
  *
@@ -29,4 +29,5 @@ riot.observable(RukusApp);
 // take a look at http://riotjs.com/guide/ for more information
 riot.mount('*', RukusApp);
 
-
+// copies your index.html to build/
+require("file?name=index.html!./index.html");

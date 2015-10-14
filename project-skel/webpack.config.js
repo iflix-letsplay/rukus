@@ -2,8 +2,9 @@
 module.exports = {
     entry: "./index.js",
     output: {
-        path: __dirname,
-        filename: "bundle.js"
+      path: './build',
+      publicPath: "/",
+      filename: 'bundle.js'
     },
     module: {
         preLoaders: [
@@ -12,5 +13,8 @@ module.exports = {
         loaders : [
             { test : /\.js$/, loader : 'babel-loader' }
         ]
+    },
+    devServer: {
+      contentBase: './build'
     }
 };
