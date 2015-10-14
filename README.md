@@ -31,6 +31,14 @@ $ npm start
 
 And point your browser to [http://localhost:8080](http://localhost:8080)
 
+## Running tests
+
+Rukus tests use [mocha](http://mochajs.org) and [feryt](https://www.npmjs.com/package/feryt) by default, tests can be run by typing:
+
+```
+$ npm test
+```
+
 
 ## Components
 
@@ -47,4 +55,6 @@ yourcomponent/
 
 To create a new component, cd into the components directory and run:
 
-```$ rukus newcomponent <yourcomponent>```
+```
+$ rukus newcomponent <yourcomponent>
+```

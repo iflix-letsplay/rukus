@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/iflix-letsplay/rukus#readme",
   "dependencies": {
+    "jsdom": "^6.5.1",
     "npm-install-package": "^1.0.2",
     "skeletron": "0.0.2",
     "yargs": "^3.27.0"
