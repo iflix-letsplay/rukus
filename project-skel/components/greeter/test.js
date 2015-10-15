@@ -4,9 +4,9 @@ var feryt = require('feryt');
 
 describe('greeter component', function() {
 
-    // context represents 'opts' passed into your component handler
-    var context = { version : '1.0.0' };
-    var f = feryt(rukus.testComponent(riot, __dirname, context));
+    // Mock RukusApp required by components
+    var RukusApp = { version : '1.0.0' };
+    var f = feryt(rukus.testComponent(riot, __dirname, RukusApp));
 
     it('should render the correct version from the context', function(done) {
         f.findOne('.greeting')

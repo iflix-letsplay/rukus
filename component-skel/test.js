@@ -4,9 +4,8 @@ var feryt = require('feryt');
 
 describe('{{name}} component', function() {
 
-    // context represents 'opts' passed into your component handler
-    var context = {};
-    var f = feryt(rukus.testComponent(riot, __dirname, context));
+    var RukusApp = {};
+    var f = feryt(rukus.testComponent(riot, __dirname, RukusApp));
 
     it('should render the message', function(done) {
         f.findOne('div')
