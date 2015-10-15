@@ -9,7 +9,7 @@
 ```
    
 
-Rukus is a project skeleton, webpack loader and helpers for building [riot.js](http://roitjs.com)
+Rukus is a project skeleton, webpack loader and helpers for building [riot.js](http://riotjs.com)
 web applications in the iflix style. 
 
 Riot Tag files are replaced with components defined in directories with an index.html template, an index.js (which exports a component 
