@@ -1,20 +1,22 @@
+'use strict';
+var path = require('path');
 
 module.exports = {
-    entry: "./index.js",
+    entry: './index.js',
     output: {
       path: './build',
-      publicPath: "/",
+      publicPath: '/',
       filename: 'bundle.js'
     },
     module: {
         preLoaders: [
-            { test : /index.js$/,loader : 'rukus-loader?["./components"]' }
+            { test : path.resolve(__dirname, 'index.js'),  loader : 'rukus-loader?["./components"]' }
         ],
         loaders : [
-            { test : /\.js$/, loader : 'babel-loader' }
+            { test : /\.jsx?$/, exclude: /node_modules/, loader: 'babel-loader' }
         ]
     },
     devServer: {
-      contentBase: './build'
+        contentBase: path.join(__dirname, '/build')
     }
 };
