@@ -10,7 +10,7 @@ module.exports = {
     },
     module: {
         preLoaders: [
-            { test : path.resolve(__dirname, 'index.js'),  loader : 'rukus-loader?["./components"]' }
+            { test : path.resolve(__dirname, 'index.js'),  loader : 'rukus-loader?["./components"]&css' }
         ],
         loaders : [
             { test : /\.jsx?$/, exclude: /node_modules/, loader: 'babel-loader' }
