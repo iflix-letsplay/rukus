@@ -4,7 +4,7 @@
   "description": "{{name}}: A rukus/riot web application",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel/register --bail --check-leaks --recursive ./components/",
+    "test": "mocha --compilers js:babel-core/register --bail --check-leaks --recursive ./components/",
     "start" : "./node_modules/.bin/webpack-dev-server --history-api-fallback"
   },
   "author": "",
