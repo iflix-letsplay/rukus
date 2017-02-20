@@ -1,3 +1,4 @@
+/* global RukusApp, riot */
 
 /* -------------------------------------------------- *\
  *                  _                                 *
@@ -9,14 +10,14 @@
  *                    by iflix.com                    *
  *                                                    *
  * -------------------------------------------------- */
- // This is a rukus app.
 
+// This is a rukus app.
 
 // this is used by the example component 'greeter', feel free to delete it
-RukusApp.version = '1.0.0';
+RukusApp.version = '1.0.0'
 
 // Mount everything !
-riot.mount('*');
-require("file?name=index.html!./index.html");
+riot.mount('*')
+require('file?name=index.html!./index.html')
 
 // enjoy.

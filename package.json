@@ -5,6 +5,7 @@
   "main": "./lib/index.js",
   "bin": "./bin/rukus.js",
   "scripts": {
+    "pretest": "standard | snazzy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,5 +29,9 @@
     "npm-install-package": "^1.0.2",
     "skeletron": "0.0.2",
     "yargs": "^3.27.0"
+  },
+  "devDependencies": {
+    "snazzy": "^6.0.0",
+    "standard": "^8.6.0"
   }
 }
