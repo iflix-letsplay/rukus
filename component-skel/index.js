@@ -1,4 +1,3 @@
-
-module.exports = function(opts)  {
-    this.message = 'add your component logic here';
-};
+module.exports = function (opts) {
+  this.message = 'add your component logic here'
+}
